@@ -207,7 +207,7 @@ function moverPista() {
 	pista[posXnairo][posYnairo] = 3;
 
 	contadorNivel++;
-	txtContador.innerHTML = "Contador Nivel: " + contadorNivel + "-- Nivel: " + nivel;
+	//txtContador.innerHTML = "Contador Nivel: " + contadorNivel + "-- Nivel: " + nivel;
 	if( iniciado ) {	 	
 	 	if( contadorNivel%10 == 0 ) {	 		
 	 		if( nivel > 1) {
