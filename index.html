@@ -6,22 +6,26 @@
 	<meta name="viewport" content="width=device-width height=device-height user-scalable=no">
 	<script src="js/nairomania.js"></script>
 	<script src="js/hammer.min.js"></script>
+	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="shortcut icon" href="imagenes/nairo.png" />
-    <style type="text/css">
-	body
-	{
-	    background: black;
-	    text-align: center;
-	    color: white;
-	}
-    </style>
 </head>
 <body>
+	<header>
+		<figure>
+			<img class="img_escenario" src="imagenes/ciclismo_escenario.png" alt="" />
+		</figure>
+		<figure>
+			<img class="img_perfil" src="imagenes/foto_perfil.jpeg" alt="" />
+		</figure>
+	</header>
 	<!-- <p id="contador"> Contador: </p> -->
-	<canvas id="pista" width="250" height="500"></canvas>
-	<script>
-		inicio();
-	</script>	
-
+	<div>
+		<div class="fondo_escenario">
+			<canvas id="pista" width="250" height="500"></canvas>
+			<script>
+				inicio();
+			</script>	
+		</div>		
+	</div>
 </body>
 </html>

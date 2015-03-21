@@ -1,0 +1,42 @@
+color_borde_img = #B0C785
+color_fondo_img = #426480
+color_fondo_body = #426480
+color_fondo_pista = #167432
+
+body
+	background color_fondo_body
+	text-align center
+	color white
+	margin 0
+	padding
+
+figure
+	margin 0
+	padding 0
+	& .img_perfil
+		width 80px
+		height 80px
+		border-radius 50%
+		border 5px solid color_borde_img
+	& .img_escenario
+		width 400px
+		height 80px		
+		border-radius 25px
+		border 5px solid color_borde_img
+
+header
+	display -webkit-inline-box
+	
+
+.fondo_escenario
+	background black
+
+@media screen and (max-width 320px)
+	figure .img_perfil
+		display none
+	
+	figure .img_escenario
+		width 280px
+
+	.fondo_escenario
+		background color_fondo_pista
